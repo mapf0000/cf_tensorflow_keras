@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="736px" height="589px" viewBox="0 0 736 589" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Recommendation Solution diagrams 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recommendation-Solution-diagrams-3">
+            <rect id="Rectangle" fill="#E1F6FE" x="197" y="119" width="438" height="438"></rect>
+            <path d="M237.5,119 L237.5,557" id="Path-2" stroke="#BCBCBC"></path>
+            <path d="M634.473874,473.5 L197,473.5" id="Path-2-Copy-5" stroke="#BCBCBC"></path>
+            <path d="M634.473874,515.5 L197,515.5" id="Path-2-Copy-13" stroke="#BCBCBC"></path>
+            <path d="M634.473874,201.5 L197,201.5" id="Path-2-Copy-9" stroke="#BCBCBC"></path>
+            <path d="M634.473874,285.5 L197,285.5" id="Path-2-Copy-11" stroke="#BCBCBC"></path>
+            <path d="M634.473874,159.5 L197,159.5" id="Path-2-Copy-10" stroke="#BCBCBC"></path>
+            <path d="M634.473874,243.5 L197,243.5" id="Path-2-Copy-12" stroke="#BCBCBC"></path>
+            <path d="M634.473874,327.5 L197,327.5" id="Path-2-Copy-14" stroke="#BCBCBC"></path>
+            <path d="M279.5,119 L279.5,557" id="Path-2-Copy" stroke="#BCBCBC"></path>
+            <path d="M321.5,119 L321.5,557" id="Path-2-Copy-2" stroke="#BCBCBC"></path>
+            <path d="M363.5,119 L363.5,557" id="Path-2-Copy-3" stroke="#BCBCBC"></path>
+            <path d="M405.5,119 L405.5,557" id="Path-2-Copy-4" stroke="#BCBCBC"></path>
+            <path d="M552.5,119 L552.5,557" id="Path-2-Copy-6" stroke="#BCBCBC"></path>
+            <path d="M594.5,119 L594.5,557" id="Path-2-Copy-7" stroke="#BCBCBC"></path>
+            <g id="Group" transform="translate(123.000000, 119.000000)">
+                <rect id="Rectangle-2" fill="#F5F5F5" x="0" y="0" width="40" height="248"></rect>
+                <path d="M0,41 L40,41" id="Path-3" stroke="#BCBCBC"></path>
+                <path d="M0,81 L40,81" id="Path-3-Copy" stroke="#BCBCBC"></path>
+                <path d="M0,123 L40,123" id="Path-3-Copy-2" stroke="#BCBCBC"></path>
+                <path d="M0,165 L40,165" id="Path-3-Copy-3" stroke="#BCBCBC"></path>
+                <path d="M0,207 L40,207" id="Path-3-Copy-4" stroke="#BCBCBC"></path>
+            </g>
+            <g id="Group-Copy-2" transform="translate(321.000000, 77.000000) rotate(-270.000000) translate(-321.000000, -77.000000) translate(301.000000, -47.000000)">
+                <rect id="Rectangle-2" fill="#F5F5F5" x="0" y="0" width="40" height="248"></rect>
+                <path d="M0,41 L40,41" id="Path-3" stroke="#BCBCBC"></path>
+                <path d="M0,81 L40,81" id="Path-3-Copy" stroke="#BCBCBC"></path>
+                <path d="M0,123 L40,123" id="Path-3-Copy-2" stroke="#BCBCBC"></path>
+                <path d="M0,165 L40,165" id="Path-3-Copy-3" stroke="#BCBCBC"></path>
+                <path d="M0,207 L40,207" id="Path-3-Copy-4" stroke="#BCBCBC"></path>
+            </g>
+            <g id="Group-Copy" transform="translate(123.000000, 433.000000)">
+                <rect id="Rectangle-2" fill="#F5F5F5" x="0" y="0" width="40" height="124"></rect>
+                <path d="M0,41 L40,41" id="Path-3-Copy-3" stroke="#BCBCBC"></path>
+                <path d="M0,83 L40,83" id="Path-3-Copy-4" stroke="#BCBCBC"></path>
+            </g>
+            <g id="Group-Copy-3" transform="translate(573.000000, 77.000000) rotate(-270.000000) translate(-573.000000, -77.000000) translate(553.000000, 15.000000)">
+                <rect id="Rectangle-2" fill="#F5F5F5" x="0" y="0" width="40" height="124"></rect>
+                <path d="M0,41 L40,41" id="Path-3-Copy-3" stroke="#BCBCBC"></path>
+                <path d="M0,83 L40,83" id="Path-3-Copy-4" stroke="#BCBCBC"></path>
+            </g>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="445" y="42" width="66" height="531"></rect>
+            <rect id="Rectangle-3-Copy" fill="#FFFFFF" transform="translate(388.500000, 400.000000) rotate(-270.000000) translate(-388.500000, -400.000000) " x="355.5" y="134.5" width="66" height="531"></rect>
+            <text id="0" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="214" y="81">0</tspan>
+            </text>
+            <text id="0-copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="139" y="145">0</tspan>
+            </text>
+            <text id="i-3" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="524" y="81">i-3</tspan>
+            </text>
+            <text id="u-3" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="133" y="459">u-3</tspan>
+            </text>
+            <text id="1" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="255" y="81">1</tspan>
+            </text>
+            <text id="1-copy-2" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="297" y="185">1</tspan>
+            </text>
+            <text id="1-copy-3" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="381" y="310">1</tspan>
+            </text>
+            <text id="1-copy-4" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="255" y="499">1</tspan>
+            </text>
+            <text id="1-copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="139" y="185">1</tspan>
+            </text>
+            <text id="i-2" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="565.437012" y="81">i-2</tspan>
+            </text>
+            <text id="u-2" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="133.334961" y="499">u-2</tspan>
+            </text>
+            <text id="2" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="298" y="81">2</tspan>
+            </text>
+            <text id="2-copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="139" y="225">2</tspan>
+            </text>
+            <text id="i-1" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="607.437012" y="81">i-1</tspan>
+            </text>
+            <text id="u-1" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="133.334961" y="539">u-1</tspan>
+            </text>
+            <text id="3" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="339" y="81">3</tspan>
+            </text>
+            <text id="items" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="349" y="39">items</tspan>
+            </text>
+            <text id="users" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="66" y="242">users</tspan>
+            </text>
+            <text id="3-copy-3" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="612" y="226">3</tspan>
+            </text>
+            <text id="3-copy-2" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="381" y="145">3</tspan>
+            </text>
+            <text id="3-copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="139" y="268">3</tspan>
+            </text>
+            <text id="4" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="380" y="81">4</tspan>
+            </text>
+            <text id="4-copy-2" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="529" y="145">4</tspan>
+            </text>
+            <text id="4-copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="139" y="310">4</tspan>
+            </text>
+            <text id="4-copy-3" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="421" y="499">4</tspan>
+            </text>
+            <text id="5" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="421" y="81">5</tspan>
+            </text>
+            <text id="5-copy-2" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="213" y="185">5</tspan>
+            </text>
+            <text id="5-copy-3" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="570" y="311">5</tspan>
+            </text>
+            <text id="5-copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="139" y="351">5</tspan>
+            </text>
+            <text id="…" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#4A4A4A">
+                <tspan x="471" y="79">…</tspan>
+            </text>
+            <text id="…-copy" transform="translate(148.000000, 400.500000) rotate(-270.000000) translate(-148.000000, -400.500000) " font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#4A4A4A">
+                <tspan x="140.5" y="407.5">…</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

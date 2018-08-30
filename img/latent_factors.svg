@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="736px" height="416px" viewBox="0 0 736 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Recommendation Solution diagrams 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recommendation-Solution-diagrams-4">
+            <rect id="Rectangle-Copy" fill="#E1F6FE" x="42" y="70" width="235" height="235"></rect>
+            <rect id="Rectangle-Copy-2" fill="#E1F6FE" x="345" y="70" width="47" height="235"></rect>
+            <rect id="Rectangle-Copy-3" fill="#E1F6FE" transform="translate(563.500000, 187.500000) rotate(-90.000000) translate(-563.500000, -187.500000) " x="540" y="70" width="47" height="235"></rect>
+            <text id="R" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="153" y="62">R</tspan>
+            </text>
+            <text id="≈" font-family="Roboto-Medium, Roboto" font-size="36" font-weight="400" fill="#4A4A4A">
+                <tspan x="301" y="202">≈</tspan>
+            </text>
+            <text id="+" transform="translate(419.500000, 189.000000) rotate(-45.000000) translate(-419.500000, -189.000000) " font-family="Roboto-Medium, Roboto" font-size="36" font-weight="400" fill="#4A4A4A">
+                <tspan x="409" y="201">+</tspan>
+            </text>
+            <text id="X" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="362" y="62">X</tspan>
+            </text>
+            <text id="Y" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="557" y="154">Y</tspan>
+            </text>
+            <text id="k" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="687" y="193">k</tspan>
+            </text>
+            <text id="k-copy" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="364" y="348">k</tspan>
+            </text>
+            <text id="latent-factors" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="317" y="372">latent factors</tspan>
+            </text>
+            <text id="i" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="157" y="329">i</tspan>
+            </text>
+            <text id="u" font-family="Roboto-MediumItalic, Roboto" font-size="20" font-style="italic" font-weight="500" fill="#4A4A4A">
+                <tspan x="16" y="193">u</tspan>
+            </text>
+            <g id="Group" transform="translate(345.000000, 311.000000)" stroke="#000000">
+                <path d="M0,5 L47,5" id="Path-4"></path>
+                <polyline id="Path-5" points="5.17269427 0 0 5.17269427 5.17269427 10"></polyline>
+                <polyline id="Path-5-Copy" transform="translate(44.586347, 5.000000) scale(-1, 1) translate(-44.586347, -5.000000) " points="47.1726943 0 42 5.17269427 47.1726943 10"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
