@@ -45,9 +45,12 @@ class Cf_mlp():
              tf.keras.layers.Flatten()(item_embeddings(item_input))])
 
         preceding_layer = concat_input
-        for layer in hidden_layers:
-            layer.set_previous(preceding_layer)
-            preceding_layer = layer
+        for layer_description in hidden_layers:
+            l_name, l_param = layer_description
+            if l_name is "dense":
+                preceding_layer = tf.keras.layers.Dense(l_param)(preceding_layer)
+            if l_name is "dropout":
+                preceding_layer = tf.keras.layers.Dropout(l_param)(preceding_layer)
 
         pred_layer = tf.keras.layers.Dense(
             1, name='prediction')(preceding_layer)
@@ -62,15 +65,16 @@ class Cf_mlp():
         return model
 
     def train(self, x, y,
-              num_factors=160, optimizer=tf.train.AdamOptimizer(),
+              num_factors=200, optimizer=tf.train.AdamOptimizer(),
               epochs=20, batch_size=32,
-              hidden_layers=(tf.keras.layers.Dense(128, activation='relu'),
-                             tf.keras.layers.Dropout(0.5),
-                             tf.keras.layers.Dense(64, activation='relu'),
-                             tf.keras.layers.Dropout(0.5),
-                             tf.keras.layers.Dense(32, activation='relu'),
-                             tf.keras.layers.Dropout(0.5)),
-              validation_data=None, reg_p_u=0.001, reg_q_i=0.001):
+              hidden_layers=[("dense", 128),
+                             ("dropout", 0.5),
+                             ("dense", 64),
+                             ("dropout", 0.5),
+                             ("dense", 32),
+                             ("dropout", 0.5)],
+              validation_data=None, reg_p_u=0.001, reg_q_i=0.001,
+              early_stopping=None):
         """
         Trains model on a given dataset.
         """
@@ -81,7 +85,7 @@ class Cf_mlp():
         # set parameters and hyperparameters
         self.num_factors = num_factors
         if validation_data is not None:
-            x_valid, _ = validation_data
+            x_valid, y_valid = validation_data
             self.num_users = max(np.max(x[:, 0]), np.max(x_valid[:, 0])) + 1
             self.num_items = max(np.max(x[:, 1]), np.max(x_valid[:, 1])) + 1
         else:
@@ -91,6 +95,10 @@ class Cf_mlp():
         self.reg_q_i = reg_q_i
 
         model = self.build_model(hidden_layers)
+        print(x_valid.shape)
+        print(y_valid.shape)
 
+        if early_stopping is not None:
+            early_stopping = tf.keras.callbacks.EarlyStopping(patience=early_stopping, verbose=1)
         model.fit([x[:, 0], x[:, 1]], y, epochs=epochs, batch_size=batch_size,
-                  validation_data=validation_data)
+                  validation_data=([x_valid[:, 0], x_valid[:, 1]], y_valid), callbacks=[early_stopping])
