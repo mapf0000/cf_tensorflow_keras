@@ -95,8 +95,6 @@ class Cf_mlp():
         self.reg_q_i = reg_q_i
 
         model = self.build_model(hidden_layers)
-        print(x_valid.shape)
-        print(y_valid.shape)
 
         if early_stopping is not None:
             early_stopping = tf.keras.callbacks.EarlyStopping(patience=early_stopping, verbose=1)
