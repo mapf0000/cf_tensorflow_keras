@@ -48,7 +48,7 @@ class Cf_mlp():
         for layer_description in hidden_layers:
             l_name, l_param = layer_description
             if l_name is "dense":
-                preceding_layer = tf.keras.layers.Dense(l_param)(preceding_layer)
+                preceding_layer = tf.keras.layers.Dense(l_param, activation='relu')(preceding_layer)
             if l_name is "dropout":
                 preceding_layer = tf.keras.layers.Dropout(l_param)(preceding_layer)
 
@@ -65,15 +65,15 @@ class Cf_mlp():
         return model
 
     def train(self, x, y,
-              num_factors=200, optimizer=tf.train.AdamOptimizer(),
-              epochs=20, batch_size=32,
+              num_factors=64, optimizer=tf.train.AdamOptimizer(),
+              epochs=20, batch_size=1024,
               hidden_layers=[("dense", 128),
                              ("dropout", 0.5),
                              ("dense", 64),
                              ("dropout", 0.5),
                              ("dense", 32),
                              ("dropout", 0.5)],
-              validation_data=None, reg_p_u=0.001, reg_q_i=0.001,
+              validation_data=None, reg_p_u=0.01, reg_q_i=0.01,
               early_stopping=None):
         """
         Trains model on a given dataset.

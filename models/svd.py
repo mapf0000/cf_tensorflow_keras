@@ -24,11 +24,11 @@ class SVD:
         Builds model graph.
         """
         # constants
-        with tf.variable_scope('constants'):
+        with tf.variable_scope('constants', reuse=tf.AUTO_REUSE):
             _mu = tf.constant(self.mu, shape=[], dtype=tf.float32)
 
         # user variables
-        with tf.variable_scope('users'):
+        with tf.variable_scope('users', reuse=tf.AUTO_REUSE):
             user_embeddings = tf.get_variable(
                 name='embeddings',
                 shape=[self.num_users, self.num_factors],
@@ -52,7 +52,7 @@ class SVD:
                 name='b_u')
 
         # item variables
-        with tf.variable_scope('items'):
+        with tf.variable_scope('items', reuse=tf.AUTO_REUSE):
             item_embeddings = tf.get_variable(
                 name='embeddings',
                 shape=[self.num_items, self.num_factors],
@@ -76,13 +76,13 @@ class SVD:
                 name='b_i')
 
         # prediction
-        with tf.variable_scope('prediction'):
+        with tf.variable_scope('prediction', reuse=tf.AUTO_REUSE):
             prediction = tf.reduce_sum(tf.multiply(p_u, q_i), axis=1)
             prediction = tf.add_n([b_u, b_i, prediction])
             prediction = tf.add(prediction, _mu, name='prediction')
 
         # loss
-        with tf.variable_scope('loss'):
+        with tf.variable_scope('loss', reuse=tf.AUTO_REUSE):
             loss = tf.nn.l2_loss(tf.subtract(ratings, prediction), name='loss')
 
             training_objective = tf.add(loss,
@@ -96,7 +96,7 @@ class SVD:
         """ 
         Creates evaluation Metrics and update OPs.
         """
-        with tf.variable_scope('metrics'):
+        with tf.variable_scope('metrics', reuse=tf.AUTO_REUSE):
             mae, mae_update_op = tf.metrics.mean_absolute_error(
                 ratings, pred, name="mae")
 
@@ -108,9 +108,9 @@ class SVD:
     def train(self, x, y,
               num_factors=50, optimizer=tf.train.AdamOptimizer(),
               validation_data=None,
-              batch_size=32, epochs=10, early_stopping=None,
-              reg_p_u=0.001, reg_b_u=0.001,
-              reg_q_i=0.001, reg_b_i=0.001):
+              batch_size=1024, epochs=10, early_stopping=None,
+              reg_p_u=0.0001, reg_b_u=0.0001,
+              reg_q_i=0.0001, reg_b_i=0.0001):
         """
         Trains model on a given dataset.
         """
