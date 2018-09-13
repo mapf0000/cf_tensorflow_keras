@@ -6,7 +6,7 @@ For usage, see models_tutorial.ipynb (using MovieLens Dataset as example)
 
 References:
 
-[Basic Latent Factor Model (SVD)](http://sifter.org/simon/journal/20061211.html)
+[Basic Latent Factor Models (SVD)](http://www.cs.rochester.edu/twiki/pub/Main/HarpSeminar/Factorization_Meets_the_Neighborhood-_a_Multifaceted_Collaborative_Filtering_Model.pdf)
 
 [Neural Collaborative Filtering](https://arxiv.org/pdf/1708.05031.pdf)
 
